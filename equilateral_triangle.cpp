@@ -1,8 +1,8 @@
-#include "equilateral_triangle.h"
+п»ї#include "equilateral_triangle.h"
 
-// класс равностороннего треугольника, наследуется от Triangle
+// РєР»Р°СЃСЃ СЂР°РІРЅРѕСЃС‚РѕСЂРѕРЅРЅРµРіРѕ С‚СЂРµСѓРіРѕР»СЊРЅРёРєР°, РЅР°СЃР»РµРґСѓРµС‚СЃСЏ РѕС‚ Triangle
 
-EquilateralTriangle::EquilateralTriangle(int a): Triangle(a, a, a, 60, 60, 60) 
-{
-    name = "\nРавносторонний треугольник";
+EquilateralTriangle::EquilateralTriangle(int a)
+    : Triangle(a, a, a, 60, 60, 60) {
+    name = "\nР Р°РІРЅРѕСЃС‚РѕСЂРѕРЅРЅРёР№ С‚СЂРµСѓРіРѕР»СЊРЅРёРє";
 }

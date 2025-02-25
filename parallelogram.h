@@ -1,12 +1,10 @@
-#pragma once
 #ifndef PARALLELOGRAM_H
 #define PARALLELOGRAM_H
 
 #include "quadrilateral.h"
 
-class Parallelogram : public Quadrilateral 
-{
-  public:
+class Parallelogram : public Quadrilateral {
+public:
     Parallelogram(int a, int b, int A, int B);
 };
 
